@@ -1,0 +1,20 @@
+void - 메소드를 의미? 반환형?
+메서드의 return값의 형이 정해져있으면 int, string 쓰는데 알수없으면 void를 쓴다.
+
+그냥 int iv - 인스턴스 변수
+      static int cv -클래수 변수
+
+      void instanceMethod(){   //인스턴스 메서드 -> 인스턴스 변수, 클래스변수 모두 사용가능
+          system.out.println(iv);
+          system.out.println(cv);
+}
+
+     static void instanceMethod(){ //클래스 메서드 -> 인스턴스 변수 사용 X,클래슨변수만 사용가능
+          system.out.println(iv);
+          system.out.println(cv);
+}
+
+
+
+메소드 오버로딩
+접근제한  반환형  메서드명  (자료형 인자1, 자료형 인자2, ...){}
